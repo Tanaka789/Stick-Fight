@@ -5,15 +5,11 @@ class Point extends Vector2{
     }
 
     update(){
-        this.render()
+        this.render();
     }
     render(){
         fill(255)
-        ellipse(x,y,5,5)
+        ellipse(this.x,this.y,5,5);
 
     }
-
-
-
-
 }
